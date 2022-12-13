@@ -1,0 +1,24 @@
+.detailWrapper{
+    margin-right: 35%;
+    margin-left: 35%;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.detailDataBox{
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    overflow: scroll;
+    font-weight: 600;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px 1px;
+
+}
+
+.detailWrapper > button{
+    margin: 5px;
+    width: 50px;
+    text-align:center;
+}

@@ -1,0 +1,41 @@
+.favWrapper{
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.mainContent{
+    display: flex;
+}
+
+.dataBox1{
+    flex: 1;
+    height: 50vh;
+    overflow: scroll;
+    font-weight: 600;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px 1px;
+
+    margin: 10px;
+
+}
+
+.dataBox2{
+    flex:1;
+    height: 50vh;
+    font-weight: 600;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px 1px;
+    margin: 10px;
+    margin-left: 50px;
+}
+
+
+.favWrapper > button{
+    margin: 5px;
+    width: 50px;
+    text-align:center;
+}
