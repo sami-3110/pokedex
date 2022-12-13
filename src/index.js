@@ -7,7 +7,7 @@ import { configureStore } from '@reduxjs/toolkit';
 import { Provider } from 'react-redux';
 import pokemonsReducer from './features/Pokemons'
 
-
+//configuring store
 const store = configureStore({
   reducer: {
     pokemons: pokemonsReducer,
